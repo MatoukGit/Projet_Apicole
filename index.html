@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apitv - l'Apiculture en Algerie</title>
+    <title>l'Apiculture en Algerie</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- 1. EN-TÊTE : Logo et Navigation Principale -->
-    <header>
-        <div class="logo"> <span>HoneyBee</span> 🐝 <span>ApiTV</span></div>
+     <header>
+        <a href="index.html" class="logo-link">
+    <div class="logo-container">
+        <div class="hexagon hex-yellow"></div>
+        <div class="hexagon hex-border hb-1"></div>
+        <div class="hexagon hex-border hb-2"></div>
+        <div class="hexagon hex-border hb-3"></div>
+        <div class="hexagon hex-border hb-4"></div>
+        <div class="hexagon hex-border hb-5"></div>
+        <div class="text-group">
+            <span class="text-top">Matouk</span>
+            <span class="text-main">Rucher</span>
+        </div>
+    </div>
+</a>
         <nav>
             <ul>
                 <li><a href="#accueil">Accueil</a></li>
@@ -24,14 +35,11 @@
     </header>
 
     <main>
-        <!-- 2. SECTION VITRINE : Présentation et Accroche -->
         <section id="accueil" class="hero">
             <h1>Bienvenue sur ApiTV</h1>
             <p>Le point de rencontre des apiculteurs passionnés. Apprenez, partagez et équipez-vous.</p>
             <a href="#recensement" class="btn">Participer au Recensement</a>
         </section>
-
-        <!-- 3. NOUVELLE SECTION : Lien vers l'application de Recensement -->
         <section id="recensement" style="padding: 60px 20px; background-color: #fcf8f2; text-align: center;">
             <h2 style="color: #333; margin-bottom: 20px;">📋 Recensement des Exploitations Apicoles</h2>
             <p style="color: #666; max-width: 600px; margin: 0 auto 30px auto;">
@@ -43,8 +51,6 @@
                 </a>
             </div>
         </section>
-
-        <!-- 4. SECTION TV : Les dernières vidéos (Aperçu) -->
         <section id="tv">
             <h2>📺 TV Apiculture</h2>
             <div class="video-grid">
@@ -52,8 +58,6 @@
                 <div class="video-card">Vidéo 2 : Récolte du miel</div>
             </div>
         </section>
-
-        <!-- 5. SECTION BOUTIQUE : Aperçu des produits -->
         <section id="boutique">
             <h2>🍯 Notre Boutique</h2>
             <div class="product-grid">
@@ -61,21 +65,15 @@
                 <div class="product-card">Miel de Lavande</div>
             </div>
         </section>
-
-        <!-- 6. SECTION FORMATION : Les cours -->
         <section id="formation">
             <h2>🎓 E-Formation</h2>
             <p>Devenez un apiculteur pro grâce à nos modules en ligne.</p>
         </section>
-
-        <!-- 7. SECTION FORUM : Derniers sujets du Club -->
         <section id="forum">
             <h2>💬 Le Club & Forum</h2>
             <p>Une question sur vos abeilles ? Rejoignez la communauté.</p>
         </section>
     </main>
-
-    <!-- 8. PIED DE PAGE -->
     <footer>
         <p>&copy; 2026 ApiTV - Passion Apiculture. Tous droits réservés.</p>
     </footer>
